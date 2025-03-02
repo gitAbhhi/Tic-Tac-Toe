@@ -2,6 +2,12 @@
     background-color: rgb(88, 88, 212);
     font-family:Arial;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .heading{
     display: flex;
     justify-content: center;

@@ -1,0 +1,114 @@
+*{
+    background-color: rgb(88, 88, 212);
+    font-family:Arial;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.941);
+    font-size: 40px;
+    height: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.heading p{
+    background-color: rgb(71, 71, 125);
+    border-radius: 10px;
+    height: 72px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.newgame{
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.941);
+    background-color: rgb(71, 71, 125);
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(64, 64, 116);
+    border:none;
+    border-radius: 5px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial;
+    font-size: 50px;
+    font-weight:bold;
+    color: rgba(255, 255, 255, 0.941);
+}
+.second-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.reset{
+    height: 45px;
+    width: 120px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.941);
+    border-radius: 5px;
+    background-color: rgb(64, 64, 116);
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.941);
+    font-size: 40px;
+    height: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.winp{
+    border-radius: 10px;
+    background-color: rgb(71, 71, 125);
+    height: 72px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
